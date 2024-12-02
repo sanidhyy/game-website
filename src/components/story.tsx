@@ -1,8 +1,9 @@
-import { useRef } from "react";
-import { AnimatedTitle } from "./animated-title";
 import gsap from "gsap";
-import { RoundedCorners } from "./rounded-corners";
+import { useRef } from "react";
+
+import { AnimatedTitle } from "./animated-title";
 import { Button } from "./button";
+import { RoundedCorners } from "./rounded-corners";
 
 export const Story = () => {
   const frameRef = useRef<HTMLImageElement>(null);

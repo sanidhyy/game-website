@@ -1,6 +1,7 @@
-import { cn } from "@/lib/utils";
 import gsap from "gsap";
 import { PropsWithChildren, useEffect, useRef } from "react";
+
+import { cn } from "@/lib/utils";
 
 interface AnimatedTitleProps {
   containerClass?: string;

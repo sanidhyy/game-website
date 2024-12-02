@@ -1,6 +1,7 @@
-import { cn } from "@/lib/utils";
 import type { PropsWithChildren } from "react";
 import type { IconType } from "react-icons";
+
+import { cn } from "@/lib/utils";
 
 interface ButtonProps {
   id?: string;
