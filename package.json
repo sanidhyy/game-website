@@ -85,6 +85,7 @@
     "globals": "^15.11.0",
     "postcss": "^8.4.49",
     "prettier": "^3.4.1",
+    "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwind-merge": "^2.5.5",
     "tailwindcss": "^3.4.15",
     "typescript": "~5.6.2",
