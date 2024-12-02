@@ -6,8 +6,8 @@ import { useWindowScroll } from "react-use";
 import { cn } from "@/lib/utils";
 
 import { Button } from "./button";
-
-const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
+import { FaGithub } from "react-icons/fa";
+import { LINKS, NAV_ITEMS } from "@/constants";
 
 export const Navbar = () => {
   const navContainerRef = useRef<HTMLDivElement>(null);
@@ -74,43 +74,52 @@ export const Navbar = () => {
 
           <div className="flex h-full items-center">
             <div className="hidden md:block">
-              {navItems.map((item) => (
-                <a
-                  key={item}
-                  href={`#${item.toLowerCase()}`}
-                  className="nav-hover-btn"
-                >
-                  {item}
+              {NAV_ITEMS.map(({ label, href }) => (
+                <a key={href} href={href} className="nav-hover-btn">
+                  {label}
                 </a>
               ))}
             </div>
 
-            <button
-              onClick={toggleAudioIndicator}
-              className="ml-10 flex items-center space-x-1 p-2"
-            >
-              <audio
-                ref={audioElementRef}
-                src="/audio/loop.mp3"
-                className="hidden"
-                loop
-              />
+            <div className="flex items-center gap-4">
+              <button
+                onClick={toggleAudioIndicator}
+                className="ml-10 flex items-center space-x-1 p-2 transition hover:opacity-75"
+                title="Play Audio"
+              >
+                <audio
+                  ref={audioElementRef}
+                  src="/audio/loop.mp3"
+                  className="hidden"
+                  loop
+                />
 
-              {Array(4)
-                .fill("")
-                .map((_, i) => {
-                  return (
-                    <div
-                      key={i + 1}
-                      className={cn(
-                        "indicator-line",
-                        isIndicatorActive && "active"
-                      )}
-                      style={{ animationDelay: `${(i + 1) * 0.1}s` }}
-                    />
-                  );
-                })}
-            </button>
+                {Array(4)
+                  .fill("")
+                  .map((_, i) => {
+                    return (
+                      <div
+                        key={i + 1}
+                        className={cn(
+                          "indicator-line",
+                          isIndicatorActive && "active"
+                        )}
+                        style={{ animationDelay: `${(i + 1) * 0.1}s` }}
+                      />
+                    );
+                  })}
+              </button>
+
+              <a
+                href={LINKS.sourceCode}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="transition hover:opacity-75"
+                title="Source Code"
+              >
+                <FaGithub className="size-5 text-white" />
+              </a>
+            </div>
           </div>
         </nav>
       </div>
