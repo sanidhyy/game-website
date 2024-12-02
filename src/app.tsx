@@ -3,6 +3,8 @@ import { About } from "@/components/about";
 import { Navbar } from "@/components/navbar";
 import { Features } from "@/components/features";
 import { Story } from "@/components/story";
+import { Contact } from "@/components/contact";
+import { Footer } from "@/components/footer";
 
 const App = () => {
   return (
@@ -14,7 +16,10 @@ const App = () => {
         <About />
         <Features />
         <Story />
+        <Contact />
       </main>
+
+      <Footer />
     </div>
   );
 };

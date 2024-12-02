@@ -53,10 +53,7 @@ export const Story = () => {
         </p>
 
         <div className="relative size-full">
-          <AnimatedTitle
-            // sectionId="#story"
-            containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
-          >
+          <AnimatedTitle containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10">
             {"The St<b>o</b>ry of <br /> a hidden real<b>m</b>"}
           </AnimatedTitle>
 
