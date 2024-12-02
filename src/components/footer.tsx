@@ -44,7 +44,7 @@ export const Footer = () => {
         <div className="flex items-center gap-1.5">
           <a
             href="#"
-            className="text-center text-sm hover:underline hover:opacity-75 transition md:text-right"
+            className="text-center text-sm transition hover:underline hover:opacity-75 md:text-right"
           >
             Privacy Policy
           </a>
@@ -53,7 +53,7 @@ export const Footer = () => {
 
           <a
             href="#"
-            className="text-center text-sm hover:underline hover:opacity-75 transition md:text-right"
+            className="text-center text-sm transition hover:underline hover:opacity-75 md:text-right"
           >
             Terms &amp; Conditions
           </a>

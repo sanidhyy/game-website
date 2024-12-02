@@ -44,19 +44,19 @@ body {
   }
 
   .nav-hover-btn {
-    @apply relative ms-10 font-general text-xs uppercase text-blue-50 after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 hover:opacity-75 transition dark:after:bg-white cursor-pointer;
+    @apply relative ms-10 cursor-pointer font-general text-xs uppercase text-blue-50 transition after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:opacity-75 hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-white;
   }
 
   .floating-nav {
-    @apply bg-black rounded-lg border;
+    @apply rounded-lg border bg-black;
   }
 
   .absolute-center {
-    @apply absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%];
+    @apply absolute left-1/2 top-1/2 translate-x-[-50%] translate-y-[-50%];
   }
 
   .flex-center {
-    @apply flex justify-center items-center;
+    @apply flex items-center justify-center;
   }
 
   .mask-clip-path {
@@ -69,7 +69,7 @@ body {
   }
 
   .hero-heading {
-    @apply uppercase font-zentry font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem];
+    @apply font-zentry text-5xl font-black uppercase sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem];
   }
 
   .about-subtext {
@@ -92,7 +92,7 @@ body {
   }
 
   .bento-tilt_1 {
-    @apply relative border-hsla col-span-2 overflow-hidden rounded-md transition-transform duration-300 ease-out;
+    @apply border-hsla relative col-span-2 overflow-hidden rounded-md transition-transform duration-300 ease-out;
   }
 
   .bento-tilt_2 {
@@ -100,11 +100,11 @@ body {
   }
 
   .bento-title {
-    @apply uppercase md:text-6xl text-4xl font-black font-zentry;
+    @apply font-zentry text-4xl font-black uppercase md:text-6xl;
   }
 
   .story-img-container {
-    @apply relative md:h-dvh h-[90vh] w-full;
+    @apply relative h-[90vh] w-full md:h-dvh;
     filter: url("#flt_tag");
   }
 
@@ -114,7 +114,7 @@ body {
   }
 
   .story-img-content {
-    @apply absolute w-full md:h-dvh h-[50dvh] opacity-100 left-10 top-16 md:left-0 md:top-10 lg:left-[-300px] lg:top-[-100px];
+    @apply absolute left-10 top-16 h-[50dvh] w-full opacity-100 md:left-0 md:top-10 md:h-dvh lg:left-[-300px] lg:top-[-100px];
     transform: translate3d(0, 0, 0) rotateX(0) rotateY(0) rotateZ(0) scale(1);
   }
 
@@ -127,7 +127,7 @@ body {
   }
 
   .gallery-img-4 {
-    @apply sm:size-80 md:h-96 md:w-[25rem] rounded-lg;
+    @apply rounded-lg sm:size-80 md:h-96 md:w-[25rem];
   }
 
   .sword-man-clip-path {

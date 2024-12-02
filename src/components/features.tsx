@@ -66,7 +66,7 @@ const BentoCard = ({ src, title, description }: BentoCardProps) => {
         <div>
           <h1 className="bento-title special-font">{title}</h1>
           {description && (
-            <p className="mt-3 max-w-64 tetx-xl md:text-base">{description}</p>
+            <p className="tetx-xl mt-3 max-w-64 md:text-base">{description}</p>
           )}
         </div>
       </div>
