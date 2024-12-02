@@ -1,13 +1,13 @@
 import gsap from "gsap";
 import { useEffect, useRef, useState } from "react";
+import { FaGithub } from "react-icons/fa";
 import { TiLocationArrow } from "react-icons/ti";
 import { useWindowScroll } from "react-use";
 
+import { LINKS, NAV_ITEMS } from "@/constants";
 import { cn } from "@/lib/utils";
 
 import { Button } from "./button";
-import { FaGithub } from "react-icons/fa";
-import { LINKS, NAV_ITEMS } from "@/constants";
 
 export const Navbar = () => {
   const navContainerRef = useRef<HTMLDivElement>(null);

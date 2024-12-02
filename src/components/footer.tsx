@@ -1,23 +1,4 @@
-import { FaDiscord, FaTwitch, FaTwitter, FaYoutube } from "react-icons/fa";
-
-const links = [
-  {
-    href: "https://discord.com",
-    icon: FaDiscord,
-  },
-  {
-    href: "https://twitter.com",
-    icon: FaTwitter,
-  },
-  {
-    href: "https://youtube.com",
-    icon: FaYoutube,
-  },
-  {
-    href: "https://twitch.com",
-    icon: FaTwitch,
-  },
-];
+import { SOCIAL_LINKS } from "@/constants";
 
 export const Footer = () => {
   return (
@@ -29,7 +10,7 @@ export const Footer = () => {
         </p>
 
         <div className="flex justify-center gap-4 md:justify-start">
-          {links.map(({ href, icon: Icon }) => (
+          {SOCIAL_LINKS.map(({ href, icon: Icon }) => (
             <a
               key={href}
               href={href}
