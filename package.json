@@ -1,14 +1,69 @@
 {
   "name": "game-website",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
     "preview": "vite preview"
   },
+  "author": {
+    "name": "Sanidhya Kumar Verma",
+    "email": "sanidhya.verma12345@gmail.com",
+    "url": "https://github.com/sanidhyy"
+  },
+  "description": "Modern UI/UX 3D Animated Gaming Website using React and GSAP",
+  "keywords": [
+    "reactjs",
+    "netlify",
+    "react",
+    "modern-ui",
+    "modern-ux",
+    "portfolio",
+    "gsap",
+    "animated",
+    "animated-ui",
+    "game-website",
+    "gaming-website",
+    "postcss",
+    "prettier",
+    "tailwindcss",
+    "tailwindcss-animate",
+    "ui/ux",
+    "js",
+    "javascript",
+    "typescript",
+    "eslint",
+    "html",
+    "css",
+    "js",
+    "ts"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanidhyy/game-website.git"
+  },
+  "homepage": "https://github.com/sanidhyy/game-website#readme",
+  "bugs": {
+    "url": "https://github.com/sanidhyy/game-website/issues",
+    "email": "sanidhya.verma12345@gmail.com"
+  },
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/sanidhy"
+    },
+    {
+      "type": "Buy me a coffee",
+      "url": "https://www.buymeacoffee.com/sanidhy"
+    }
+  ],
   "dependencies": {
     "@gsap/react": "^2.1.1",
     "gsap": "^3.12.5",
