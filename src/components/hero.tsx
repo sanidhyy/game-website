@@ -47,7 +47,7 @@ export const Hero = () => {
           duration: 1,
           ease: "power1.inOut",
           onStart: () => {
-            nextVideoRef.current?.play();
+            void nextVideoRef.current?.play();
           },
         });
 
