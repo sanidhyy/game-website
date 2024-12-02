@@ -20,7 +20,7 @@ export const Button = ({
     <button
       id={id}
       className={cn(
-        "group relative z-10 w-fit cursor-pointer overflow-hidden rounded-full bg-violet-50 px-7 py-3 text-black",
+        "group relative z-10 w-fit cursor-pointer overflow-hidden rounded-full bg-violet-50 px-7 py-3 text-black hover:opacity-75 transition",
         containerClass
       )}
     >
