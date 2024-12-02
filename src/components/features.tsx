@@ -53,7 +53,7 @@ interface BentoCardProps {
 
 const BentoCard = ({ src, title, description }: BentoCardProps) => {
   return (
-    <div className="relative size-full">
+    <article className="relative size-full">
       <video
         src={src}
         loop
@@ -70,7 +70,7 @@ const BentoCard = ({ src, title, description }: BentoCardProps) => {
           )}
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 
@@ -102,7 +102,10 @@ export const Features = () => {
           />
         </BentoTilt>
 
-        <div className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7">
+        <div
+          id="nexus"
+          className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7"
+        >
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
             <BentoCard
               src="/videos/feature-2.mp4"
