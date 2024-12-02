@@ -22,7 +22,7 @@ const links = [
 export const Footer = () => {
   return (
     <footer className="w-screen bg-violet-300 py-4 text-violet-50">
-      <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
+      <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-8 md:flex-row">
         <p className="text-center text-sm md:text-left">
           &copy; Nova {new Date().getFullYear()}. All rights reserved.
         </p>
