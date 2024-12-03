@@ -124,6 +124,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 
 Useful resources and dependencies that are used in Nova.
 
+- The design and animations of this project were inspired by the Zentry.com website, which is an award-winning website recognized on [Awwwards.com](https://awwwards.com "Awwwards.com").
 - [@gsap/react](https://www.npmjs.com/package/@gsap/react): ^2.1.1
 - [gsap](https://www.npmjs.com/package/gsap): ^3.12.5
 - [react](https://www.npmjs.com/package/react): ^18.3.1
