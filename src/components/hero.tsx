@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
 
 import { Button } from "./button";
+import { VIDEO_LINKS } from "@/constants";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -25,7 +26,11 @@ export const Hero = () => {
     setCurrentIndex(upcomingVideoIndex);
   };
 
-  const getVideoSrc = (i: number) => `/videos/hero-${i}.mp4`;
+  const VIDEO_KEYS = ["hero1", "hero2", "hero3", "hero4"] as const;
+  const getVideoSrc = (i: number) => {
+    const key = VIDEO_KEYS[i - 1]; // Subtract 1 because the array is 0-indexed, but the video indices are 1-based
+    return VIDEO_LINKS[key];
+  };
 
   const handleVideoLoad = () => {
     setLoadedVideos((prevVideos) => prevVideos + 1);
