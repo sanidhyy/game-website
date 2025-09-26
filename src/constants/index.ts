@@ -1,4 +1,5 @@
-import { FaDiscord, FaTwitch, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaDiscord, FaTwitch, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export const NAV_ITEMS = [
   { label: "TRAILER", href: "#hero" },
@@ -19,7 +20,7 @@ export const SOCIAL_LINKS = [
   },
   {
     href: "https://twitter.com",
-    icon: FaTwitter,
+    icon: FaXTwitter,
   },
   {
     href: "https://youtube.com",
