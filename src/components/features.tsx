@@ -60,7 +60,7 @@ const BentoCard = ({ src, title, description }: BentoCardProps) => {
         loop
         muted
         autoPlay
-        className="absolute left-0 top-0 size-full object-cover object-center"
+        className="absolute top-0 left-0 size-full object-cover object-center"
       />
 
       <div className="relative z-10 flex size-full flex-col justify-between p-5 text-blue-50">
@@ -84,7 +84,7 @@ export const Features = () => {
             Into the Metagame Layer
           </p>
 
-          <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
+          <p className="font-circular-web max-w-md text-lg text-blue-50 opacity-50">
             Immerse yourself in a rich and ever-expanding universe where a
             vibrant array of products converge into an interconnected overlay
             experience on your world.

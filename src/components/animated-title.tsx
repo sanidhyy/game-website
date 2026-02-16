@@ -37,6 +37,7 @@ export const AnimatedTitle = ({
 
   return (
     <div ref={containerRef} className={cn("animated-title", containerClass)}>
+      {/* eslint-disable-next-line @typescript-eslint/no-base-to-string */}
       {children
         ?.toString()
         .split("<br />")
