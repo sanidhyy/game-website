@@ -5,6 +5,7 @@ import { ScrollTrigger } from "gsap/all";
 import { AnimatedTitle } from "./animated-title";
 
 gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(useGSAP);
 
 export const About = () => {
   useGSAP(() => {
@@ -28,7 +29,7 @@ export const About = () => {
 
   return (
     <div id="about" className="min-h-screen w-screen">
-      <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
+      <div className="relative mt-36 mb-8 flex flex-col items-center gap-5">
         <p className="font-general text-sm uppercase md:text-[10px]">
           Welcome to Zentry
         </p>
@@ -50,7 +51,7 @@ export const About = () => {
           <img
             src="/img/about.webp"
             alt="Background"
-            className="absolute left-0 top-0 size-full object-cover"
+            className="absolute top-0 left-0 size-full object-cover"
           />
         </div>
       </div>

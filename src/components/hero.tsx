@@ -7,6 +7,7 @@ import { TiLocationArrow } from "react-icons/ti";
 import { Button } from "./button";
 import { VIDEO_LINKS } from "@/constants";
 
+gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 
 export const Hero = () => {
@@ -37,6 +38,7 @@ export const Hero = () => {
   };
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (loadedVideos === totalVideos - 1) setIsLoading(false);
   }, [loadedVideos]);
 
@@ -90,7 +92,7 @@ export const Hero = () => {
   return (
     <section id="hero" className="relative h-dvh w-screen overflow-x-hidden">
       {isLoading && (
-        <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-violet-50">
+        <div className="flex-center absolute z-100 h-dvh w-screen overflow-hidden bg-violet-50">
           <div className="three-body">
             <div className="three-body__dot" />
             <div className="three-body__dot" />
@@ -101,7 +103,7 @@ export const Hero = () => {
 
       <div
         id="video-frame"
-        className="relative z-10 h-dvh w-screen overflow-hidden rounded-lg bg-blue-75"
+        className="bg-blue-75 relative z-10 h-dvh w-screen overflow-hidden rounded-lg"
       >
         <div>
           <div className="mask-clip-path absolute-center absolute z-50 size-64 cursor-pointer overflow-hidden rounded-lg">
@@ -138,22 +140,22 @@ export const Hero = () => {
             autoPlay
             loop
             muted
-            className="absolute left-0 top-0 size-full object-cover object-center"
+            className="absolute top-0 left-0 size-full object-cover object-center"
             onLoadedData={handleVideoLoad}
           />
         </div>
 
-        <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
+        <h1 className="special-font hero-heading text-blue-75 absolute right-5 bottom-5 z-40">
           G<b>a</b>ming
         </h1>
 
-        <div className="absolute left-0 top-0 z-40 size-full">
+        <div className="absolute top-0 left-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
             <h1 className="special-font hero-heading text-blue-100">
               Redefi<b>n</b>ed
             </h1>
 
-            <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
+            <p className="font-robert-regular mb-5 max-w-64 text-blue-100">
               Enter the Metagame Layer <br />
               Unleash the Play Economy
             </p>
@@ -169,7 +171,7 @@ export const Hero = () => {
         </div>
       </div>
 
-      <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
+      <h1 className="special-font hero-heading absolute right-5 bottom-5 text-black">
         G<b>a</b>ming
       </h1>
     </section>
