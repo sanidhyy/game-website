@@ -27,7 +27,7 @@ export const Button = ({
     >
       {LeftIcon ? <LeftIcon /> : null}
 
-      <p className="relative inline-flex overflow-hidden font-general text-xs uppercase">
+      <p className="font-general relative inline-flex overflow-hidden text-xs uppercase">
         {children}
       </p>
 

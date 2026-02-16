@@ -1,8 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/general-sans");
 @import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
 @tailwind utilities;
 
 body {
@@ -98,7 +96,7 @@ body {
   }
 
   .about-subtext {
-    @apply font-circular-web absolute bottom-[-80dvh] left-1/2 w-full max-w-96 -translate-x-1/2 text-center text-lg md:max-w-[34rem];
+    @apply font-circular-web absolute bottom-[-80dvh] left-1/2 w-full max-w-96 -translate-x-1/2 text-center text-lg md:max-w-136;
   }
 
   .about-image {
@@ -152,7 +150,7 @@ body {
   }
 
   .gallery-img-4 {
-    @apply rounded-lg sm:size-80 md:h-96 md:w-[25rem];
+    @apply rounded-lg sm:size-80 md:h-96 md:w-100;
   }
 
   .sword-man-clip-path {

@@ -38,7 +38,6 @@ export const Hero = () => {
   };
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (loadedVideos === totalVideos - 1) setIsLoading(false);
   }, [loadedVideos]);
 
