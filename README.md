@@ -47,30 +47,22 @@ Here is the folder structure of this app.
 ```bash
 game-website/
   |- public/
-    |-- audio/
-    |-- fonts/
-    |-- img/
-    |-- videos/
-    |-- apple-icon.png
-    |-- favicon.ico
-    |-- icon1.png
-    |-- icon2.png
   |- src/
     |-- components/
-        |--- about.tsx
-        |--- animated-title.tsx
-        |--- button.tsx
-        |--- contact.tsx
-        |--- features.tsx
-        |--- footer.tsx
-        |--- hero.tsx
-        |--- navbar.tsx
-        |--- rounded-corners.tsx
-        |--- story.tsx
+      |--- about.tsx
+      |--- animated-title.tsx
+      |--- button.tsx
+      |--- contact.tsx
+      |--- features.tsx
+      |--- footer.tsx
+      |--- hero.tsx
+      |--- navbar.tsx
+      |--- rounded-corners.tsx
+      |--- story.tsx
     |-- constants/
-        |--- index.ts
+      |--- index.ts
     |-- lib/
-        |--- utils.ts
+      |--- utils.ts
     |-- app.tsx
     |-- index.css
     |-- main.tsx
@@ -78,12 +70,11 @@ game-website/
   |- .gitignore
   |- .prettierrc
   |- bun.lockb
-  |- eslint-config.js
+  |- eslint.config.js
   |- index.html
+  |- netlify.toml
   |- package.json
-  |- postcss.config.js
-  |- README.md
-  |- tailwind.config.js
+  |- postcss.config.mjs
   |- tsconfig.app.json
   |- tsconfig.json
   |- tsconfig.node.json
@@ -128,31 +119,34 @@ Useful resources and dependencies that are used in Nova.
 
 - The design and animations of this project were inspired by the Zentry.com website, which is an award-winning website recognized on [Awwwards.com](https://awwwards.com "Awwwards.com").
 <!--- DEPENDENCIES_START --->
-- [@gsap/react](https://www.npmjs.com/package/@gsap/react): ^2.1.1
-- [gsap](https://www.npmjs.com/package/gsap): ^3.12.5
-- [react](https://www.npmjs.com/package/react): ^18.3.1
-- [react-dom](https://www.npmjs.com/package/react-dom): ^18.3.1
+- [@eslint/js](https://www.npmjs.com/package/@eslint/js): ^10.0.1
+- [@gsap/react](https://www.npmjs.com/package/@gsap/react): ^2.1.2
+- [@tailwindcss/postcss](https://www.npmjs.com/package/@tailwindcss/postcss): ^4.1.18
+- [@tailwindcss/vite](https://www.npmjs.com/package/@tailwindcss/vite): ^4.1.18
+- [@types/react](https://www.npmjs.com/package/@types/react): ^19.2.13
+- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19.2.3
+- [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react): ^5.1.4
+- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.24
+- [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
+- [eslint](https://www.npmjs.com/package/eslint): ^10.0.0
+- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react): ^7.37.2
+- [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): ^7.0.1
+- [eslint-plugin-react-refresh](https://www.npmjs.com/package/eslint-plugin-react-refresh): ^0.5.0
+- [globals](https://www.npmjs.com/package/globals): ^17.3.0
+- [gsap](https://www.npmjs.com/package/gsap): ^3.14.2
+- [postcss](https://www.npmjs.com/package/postcss): ^8.5.6
+- [prettier](https://www.npmjs.com/package/prettier): ^3.8.1
+- [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss): ^0.7.2
+- [react](https://www.npmjs.com/package/react): ^19.2.4
+- [react-dom](https://www.npmjs.com/package/react-dom): ^19.2.4
 - [react-icons](https://www.npmjs.com/package/react-icons): ^5.3.0
 - [react-use](https://www.npmjs.com/package/react-use): ^17.5.1
-- [@eslint/js](https://www.npmjs.com/package/@eslint/js): ^9.13.0
-- [@types/react](https://www.npmjs.com/package/@types/react): ^18.3.12
-- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^18.3.1
-- [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react): ^4.3.3
-- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.20
-- [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
-- [eslint](https://www.npmjs.com/package/eslint): ^9.13.0
-- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react): ^7.37.2
-- [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): ^5.0.0
-- [eslint-plugin-react-refresh](https://www.npmjs.com/package/eslint-plugin-react-refresh): ^0.4.14
-- [globals](https://www.npmjs.com/package/globals): ^15.11.0
-- [postcss](https://www.npmjs.com/package/postcss): ^8.4.49
-- [prettier](https://www.npmjs.com/package/prettier): ^3.4.1
-- [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss): ^0.6.9
-- [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^2.5.5
-- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.4.15
-- [typescript](https://www.npmjs.com/package/typescript): ~5.6.2
-- [typescript-eslint](https://www.npmjs.com/package/typescript-eslint): ^8.11.0
-- [vite](https://www.npmjs.com/package/vite): ^5.4.10
+- [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.4.0
+- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^4.1.18
+- [typescript](https://www.npmjs.com/package/typescript): ~5.9.3
+- [typescript-eslint](https://www.npmjs.com/package/typescript-eslint): ^8.54.0
+- [vite](https://www.npmjs.com/package/vite): ^7.3.1
+
 <!--- DEPENDENCIES_END --->
 
 ## :coffee: Buy Me a Coffee
