@@ -43,6 +43,7 @@
 
 Here is the folder structure of this app.
 
+<!--- FOLDER_STRUCTURE_START --->
 ```bash
 game-website/
   |- public/
@@ -88,6 +89,7 @@ game-website/
   |- tsconfig.node.json
   |- vite.config.ts
 ```
+<!--- FOLDER_STRUCTURE_END --->
 
 <br />
 
@@ -125,6 +127,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and dependencies that are used in Nova.
 
 - The design and animations of this project were inspired by the Zentry.com website, which is an award-winning website recognized on [Awwwards.com](https://awwwards.com "Awwwards.com").
+<!--- DEPENDENCIES_START --->
 - [@gsap/react](https://www.npmjs.com/package/@gsap/react): ^2.1.1
 - [gsap](https://www.npmjs.com/package/gsap): ^3.12.5
 - [react](https://www.npmjs.com/package/react): ^18.3.1
@@ -150,6 +153,7 @@ Useful resources and dependencies that are used in Nova.
 - [typescript](https://www.npmjs.com/package/typescript): ~5.6.2
 - [typescript-eslint](https://www.npmjs.com/package/typescript-eslint): ^8.11.0
 - [vite](https://www.npmjs.com/package/vite): ^5.4.10
+<!--- DEPENDENCIES_END --->
 
 ## :coffee: Buy Me a Coffee
 
