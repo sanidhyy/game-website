@@ -125,7 +125,7 @@ Useful resources and dependencies that are used in Nova.
 - [@tailwindcss/vite](https://www.npmjs.com/package/@tailwindcss/vite): ^4.1.18
 - [@types/react](https://www.npmjs.com/package/@types/react): ^19.2.13
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19.2.3
-- [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react): ^5.1.4
+- [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react): ^6.0.1
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.24
 - [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
 - [eslint](https://www.npmjs.com/package/eslint): ^10.0.0
