@@ -1,0 +1,16 @@
+{
+  // prettier setup
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "prettier.useEditorConfig": false,
+
+  // fix unknown at rule tailwind
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
+  // use workspace typescript version
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
