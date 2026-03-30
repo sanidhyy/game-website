@@ -143,7 +143,7 @@ Useful resources and dependencies that are used in Nova.
 - [react-use](https://www.npmjs.com/package/react-use): ^17.5.1
 - [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.4.0
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^4.1.18
-- [typescript](https://www.npmjs.com/package/typescript): ~5.9.3
+- [typescript](https://www.npmjs.com/package/typescript): ~6.0.2
 - [typescript-eslint](https://www.npmjs.com/package/typescript-eslint): ^8.54.0
 - [vite](https://www.npmjs.com/package/vite): ^8.0.0
 
