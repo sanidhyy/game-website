@@ -69,7 +69,7 @@ game-website/
     |-- vite-env.d.ts
   |- .gitignore
   |- .prettierrc
-  |- bun.lockb
+  |- bun.lock
   |- eslint.config.js
   |- index.html
   |- netlify.toml
