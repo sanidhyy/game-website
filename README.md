@@ -130,7 +130,7 @@ Useful resources and dependencies that are used in Nova.
 - [@eslint/js](https://www.npmjs.com/package/@eslint/js): ^10.0.1
 - [@gsap/react](https://www.npmjs.com/package/@gsap/react): ^2.1.2
 - [@tailwindcss/postcss](https://www.npmjs.com/package/@tailwindcss/postcss): ^4.3.5
-- [@tailwindcss/vite](https://www.npmjs.com/package/@tailwindcss/vite): ^4.1.18
+- [@tailwindcss/vite](https://www.npmjs.com/package/@tailwindcss/vite): ^4.3.5
 - [@types/react](https://www.npmjs.com/package/@types/react): ^19.3.0
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19.3.0
 - [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react): ^6.0.1
