@@ -129,10 +129,10 @@ Useful resources and dependencies that are used in Nova.
 <!--- DEPENDENCIES_START --->
 - [@eslint/js](https://www.npmjs.com/package/@eslint/js): ^10.0.1
 - [@gsap/react](https://www.npmjs.com/package/@gsap/react): ^2.1.2
-- [@tailwindcss/postcss](https://www.npmjs.com/package/@tailwindcss/postcss): ^4.1.18
+- [@tailwindcss/postcss](https://www.npmjs.com/package/@tailwindcss/postcss): ^4.3.5
 - [@tailwindcss/vite](https://www.npmjs.com/package/@tailwindcss/vite): ^4.1.18
 - [@types/react](https://www.npmjs.com/package/@types/react): ^19.2.13
-- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19.2.3
+- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19.3.0
 - [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react): ^6.0.1
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.24
 - [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
@@ -146,7 +146,7 @@ Useful resources and dependencies that are used in Nova.
 - [prettier](https://www.npmjs.com/package/prettier): ^3.8.1
 - [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss): ^0.8.0
 - [react](https://www.npmjs.com/package/react): ^19.2.4
-- [react-dom](https://www.npmjs.com/package/react-dom): ^19.2.4
+- [react-dom](https://www.npmjs.com/package/react-dom): ^19.3.1
 - [react-icons](https://www.npmjs.com/package/react-icons): ^5.3.0
 - [react-use](https://www.npmjs.com/package/react-use): ^17.5.1
 - [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.4.0
